@@ -150,4 +150,7 @@ foreach ($daftar_karyawan as $karyawan) {
 }
 echo "\n";
 
+//array dikosongkan untuk memicu destructor
+unset($daftar_karyawan);
+
 ?>
